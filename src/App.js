@@ -13,14 +13,15 @@ import Works from './pages/Works';
 function App() {
   return (
     <Router>
-      <div className="App">
+      <main className="App">
         <Header />
         <Routes>
+          <Route path="/" element={<About />} />
           <Route path="/about" element={<About />}/>
           <Route path="/works" element={<Works />}/>
           <Route path="/links" element={<Links />}/>
         </Routes>
-      </div>
+      </main>
       <Footer />
     </Router>
   );

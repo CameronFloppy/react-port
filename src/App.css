@@ -7,8 +7,24 @@
   --dark: #6c7575;
 }
 
-body {
+html, body {
   background-color: var(--tertiary);
+  height: 100vh;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1 0 auto;
+  margin-bottom: 3rem;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
 }
 
 .headshot {
@@ -17,6 +33,8 @@ body {
   /* display: flex; */
   margin-left: 2rem;
   margin-right: 10px;
+  margin-top: 2rem;
+  margin-bottom: 0;
   border: var(--primary) 5px solid;
   float: left;
 }
@@ -31,16 +49,16 @@ body {
   color: var(--primary);
 }
 
-/* .about-div {
-  display: flex;
-} */
+.about-div {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
 
 .footer {
-  position: fixed;
-  bottom: 0;
+  display: flex;
   width: 100%;
-  height: 2rem;
-  text-align: center;
+  height: 3rem;
+  background-color: var(--primary);
 }
 
 .nav-list {
@@ -57,6 +75,12 @@ body {
   border-bottom: var(--primary) 4px solid;
 }
 
+.nav-div {
+  margin: .5rem;
+  width: 33%;
+  text-align: center;
+}
+
 .nav-item:hover {
   color: var(--light);
   border-bottom: var(--light) 4px solid;
@@ -65,3 +89,140 @@ body {
 .nav-item::selection {
   color: var(--quatrinary);
 }
+
+.section-header {
+  text-align: center;
+  background-color: var(--primary);
+  color: var(--quatrinary);
+  padding: 1rem;
+  margin: 0;
+  border-top: var(--light) 3px solid;
+  font-size: 3rem;
+}
+
+.works-img {
+  width: 32rem;
+  height: 18rem;
+  opacity: 90%;
+  border-radius: 10px;
+}
+
+.works-img:hover {
+  opacity: 100%;
+}
+
+.works-div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.work {
+  height: 50%;
+  width: 50%;
+}
+
+h2 {
+  text-align: center;
+}
+
+
+.github { 
+  height: 18px;
+  align-self: center;
+}
+
+.github:hover {
+  opacity: 75%;
+}
+
+.blurb {
+  text-align: center;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  color: var(--dark);
+}
+
+
+.center {
+  display: flex;
+  justify-content: center;
+}
+
+.work-header {
+  color: var(--primary);
+}
+
+.link-logo {
+  height: 5rem;
+}
+
+.link-logo:hover {
+  opacity: 80%;
+}
+
+.resume-link {
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: var(--primary);
+}
+
+.link-div {
+  margin-top: 4%
+}
+
+.skills-div {
+  display: flex;
+  justify-content: space-around;
+}
+
+/* .front {
+  margin: auto;
+}
+
+.back {
+  margin: auto;
+} */
+
+
+
+.footcopy {
+  margin-top: 1rem;
+  margin-right: 1rem;
+  /* margin-left: auto; */
+  display: flex;
+}
+
+.footlogo {
+  height: 2rem;
+  margin-top: .5rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.footlogo:hover {
+  opacity: 50%;
+}
+
+.footlinks {
+  display: flex;
+  justify-content: space-around;
+  margin-left: 1rem;
+  margin-right: auto;
+}
+
+.skillHeader {
+  font-size: 3rem;
+  color: var(--primary);
+}
+
+h3 {
+  font-size: 2rem;
+  color: var(--primary);
+}
+
+li {
+  font-size: 1.5rem;
+  color: var(--primary);
+}
+
