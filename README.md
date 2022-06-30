@@ -1,5 +1,5 @@
 # Portfolio
-<i<img width="756" alt="Screen Shot 2022-06-30 at 7 49 59 PM" src="https://user-images.githubusercontent.com/93888416/176796653-53bde2e9-af50-406a-956e-eebd9673ff70.png">
+<img width="756" alt="Screen Shot 2022-06-30 at 7 49 59 PM" src="https://user-images.githubusercontent.com/93888416/176796653-53bde2e9-af50-406a-956e-eebd9673ff70.png">
 
 
 ## Purpose
