@@ -1,5 +1,6 @@
 # Portfolio
-<img width="756" alt="Screen Shot 2022-06-30 at 7 46 10 PM" src="https://user-images.githubusercontent.com/93888416/176796382-73a647f9-2420-4e01-9b5d-8a2dbf00f2ec.png">
+<i<img width="756" alt="Screen Shot 2022-06-30 at 7 49 59 PM" src="https://user-images.githubusercontent.com/93888416/176796653-53bde2e9-af50-406a-956e-eebd9673ff70.png">
+
 
 ## Purpose
 This is my current portfolio, I created it to help showcase my work to potential employers.
