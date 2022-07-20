@@ -22,7 +22,7 @@ export default function Works() {
                     <br />
                     <p className="blurb">Awake is an appliaction that tries to simplify the challenge of meeting your personal goals into something more familiar to most people. Awake helps you "Gamify" your life and allows you to set yourself quests, within those quests are milestones and daily quests to help you see you progress even when the goal seems so far away. You can click on the  screenshot to go to the deployed application, or click below to go to the GitHub repo.</p>
                     <div className="center">
-                        <a href="https://github.com/jayford45/deep-thoughts" target="_blank" rel="noreferrer"><img src={github} className="github" alt=""></img></a>
+                        <a href="https://github.com/joshgreiff/awake" target="_blank" rel="noreferrer"><img src={github} className="github" alt=""></img></a>
                     </div>
                 </div>
                 <div className="work">
