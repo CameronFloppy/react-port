@@ -4,6 +4,7 @@ import fitdish from "../images/FitdishSS.png"
 import foodly from "../images/FoodlySS.png"
 import social from "../images/SocialSS.png"
 import github from "../images/GitHub_Logo.png"
+import awake from "../images/AwakeSS.png"
 
 
 export default function Works() {
@@ -16,10 +17,10 @@ export default function Works() {
                 <div className="work">
                     <h2 className="work-header">MERN Stack</h2>
                     <div className="center">
-                        <a href="https://thawing-crag-63557.herokuapp.com/" target="_blank" rel="noreferrer"><img src={deepthoughts} alt="Screenshot of a project" className="works-img"></img></a>
+                        <a href="https://intelligent-mandarine-12379.herokuapp.com/" target="_blank" rel="noreferrer"><img src={awake} alt="Screenshot of a project" className="works-img"></img></a>
                     </div>
                     <br />
-                    <p className="blurb">This project uses the full MERN stack to create a "social media" site. You can click on the  screenshot to go to the deployed application, or click below to go to the GitHub repo.</p>
+                    <p className="blurb">Awake is an appliaction that tries to simplify the challenge of meeting your personal goals into something more familiar to most people. Awake helps you "Gamify" your life and allows you to set yourself quests, within those quests are milestones and daily quests to help you see you progress even when the goal seems so far away. You can click on the  screenshot to go to the deployed application, or click below to go to the GitHub repo.</p>
                     <div className="center">
                         <a href="https://github.com/jayford45/deep-thoughts" target="_blank" rel="noreferrer"><img src={github} className="github" alt=""></img></a>
                     </div>
