@@ -22,7 +22,7 @@ export default function Links() {
                     <a href="https://twitter.com/jayforddev" target="_blank" rel="noreferrer" className="resume-link"><img src={twitter} alt="" className="link-logo"></img></a>
                 </div>
                 <div className="center link-div">
-                    <a href="https://drive.google.com/file/d/120uLLEZg2VTOzJH7fuZMEVbZhHN_UBlL/view?usp=sharing" target="_blank" rel="noreferrer" className="resume-link"><h2>My Resume</h2></a>
+                    <a href="https://drive.google.com/file/d/1LWKQa2sp9fE9JtgXKZDPt6xx6YvVGwHG/view?usp=sharing" target="_blank" rel="noreferrer" className="resume-link"><h2>My Resume</h2></a>
                 </div>
             </div>
         </div>
